@@ -35,3 +35,22 @@ input{
   margin-right: 10px;
   outline: none;
 }
+button{
+  width: 35px;
+  min-height: 35px;
+  background-color: #C0C0C0;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  
+}
+button:hover{
+  background-color: transparent;
+}
+
+.list-item{
+  margin-top: 50px;
+}
