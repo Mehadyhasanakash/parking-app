@@ -51,6 +51,14 @@ button:hover{
   background-color: transparent;
 }
 
-.list-item{
-  margin-top: 50px;
+
+table{
+  width: 100%;
+  background-color: #C0C0C0;
+  margin-top: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #04AA6D;
+  color: white;
+  
 }

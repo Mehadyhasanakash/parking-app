@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
+import View from './components/View';
 
 function App() {
 
@@ -73,7 +74,25 @@ useEffect(() =>{
         <button type="submit"> + </button>
        </form>
 
-        <div className='list-item'>
+        <div className='list-item-view'>
+          {
+            datas.length > 0 && 
+            <div className='table-responsive'>
+              <table className='table'>
+                <thead>
+                  <tr>
+                    <th>Car No</th>
+                    <th>Diver Name</th>
+                    <th>Checking time</th>
+                    <th>Checout time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                 <View datas= {datas}/>
+                </tbody>
+              </table>
+            </div>
+          }
       {datas.length < 1 &&  <div>NO data </div> }
         </div>
 
